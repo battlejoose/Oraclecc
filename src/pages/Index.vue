@@ -1,13 +1,12 @@
 <template>
   <q-page class="flex flex-center">
     <img
-      alt="Quasar logo",
-      src="~assets/quasar-logo-full.svg"
+      alt="Quasar logo"
+      src="~assets/coingeckoimage.png"
     >
     <zap-bond-widget :address=coinGeckoOracle endpoint="CoinCap.io Datafeed"></zap-bond-widget>
   </q-page>
 </template>
-
 <script>
 export default {
   name: 'PageIndex',
