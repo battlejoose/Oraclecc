@@ -10,7 +10,10 @@
           aria-label="Menu"
           @click="leftDrawerOpen = !leftDrawerOpen"
         />
-
+<!--        <img
+          alt="oracle-logo"
+          src="~icons/favicon-32x32.png"
+        >-->
         <q-toolbar-title>
           Oracles.cc
         </q-toolbar-title>
