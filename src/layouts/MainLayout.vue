@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Oracels.cc
+          Oracles.cc
         </q-toolbar-title>
 
 <!--        <q-btn label="Get Zap" color="success" @click="alert = true" />-->
