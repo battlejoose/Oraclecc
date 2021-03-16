@@ -92,12 +92,12 @@ const linksData = [
     icon: 'school',
     link: 'https://quasar.dev'
   },
-  {
+ /* {
     title: 'Github',
     caption: 'github.com/quasarframework',
     icon: 'code',
-    link: 'https://github.com/quasarframework'
-  },
+    link: 'https://github.com/oracleite/Oraclecc'
+  }*/,
   {
     title: 'Discord Channel',
     caption: 'https://discord.gg/PfcecUPbUH',
