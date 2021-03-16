@@ -1,8 +1,8 @@
 <template>
   <q-page class="flex flex-center">
     <img
-      alt="coingecko-logo"
-      src="~assets/coingecko.png"
+      alt="Quasar logo"
+      src="~assets/quasar-logo-full.svg"
     >
     <zap-bond-widget :address=coinGeckoOracle endpoint="CoinCap.io Datafeed"></zap-bond-widget>
   </q-page>
