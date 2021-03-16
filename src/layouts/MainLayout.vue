@@ -15,7 +15,7 @@
           Oracels.cc
         </q-toolbar-title>
 
-        <q-btn label="Get Zap" color="success" @click="alert = true" />
+<!--        <q-btn label="Get Zap" color="success" @click="alert = true" />-->
 
         <div>
 
@@ -47,7 +47,7 @@
       </q-list>
     </q-drawer>
 
-    <q-dialog v-model="alert" align="center"  style="min-width:450px;">
+<!--    <q-dialog v-model="alert" align="center"  style="min-width:450px;">
       <q-card style="min-width:450px;">
         <q-card-section>
           <div class="text-h6">Buy Zap on Uniswap</div>
@@ -74,7 +74,7 @@
           <q-btn flat label="OK" color="primary" v-close-popup />
         </q-card-actions>
       </q-card>
-    </q-dialog>
+    </q-dialog>-->
 
     <q-page-container>
       <router-view />
