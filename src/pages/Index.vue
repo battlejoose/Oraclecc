@@ -4,7 +4,7 @@
       alt="geckologo"
       src="~assets/coingeckoimage.png"
     >
-    <zap-bond-widget :address=coinGeckoOracle endpoint="CoinCap.io Datafeed"></zap-bond-widget>
+    <zap-bond-widget address="0xa051812253487ee89c3491AE74f57536b7046445" endpoint="Test0"></zap-bond-widget>
   </q-page>
 </template>
 <script>

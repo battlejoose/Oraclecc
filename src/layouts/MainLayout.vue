@@ -1,5 +1,10 @@
 <template>
   <q-layout view="lHh Lpr lFf">
+<!--   <style
+      @font-face {
+      font-family: oraclefont;
+      src:oraclefont.woff);
+    }></style>-->
     <q-header elevated>
       <q-toolbar>
         <q-btn
@@ -15,14 +20,22 @@
           src="~icons/favicon-32x32.png"
         >-->
         <q-toolbar-title>
-          Oracles.cc
+
+          <q-avatar>
+            <img src="oraclelogowhite.png">
+          </q-avatar>
+
+          ORACLES.CC
+
+
+
         </q-toolbar-title>
 
 <!--        <q-btn label="Get Zap" color="success" @click="alert = true" />-->
 
         <div>
 
-          Quasar v{{ $q.version }}
+         Powered by Zap.org and Quasar v{{ $q.version }}
         </div>
       </q-toolbar>
     </q-header>
@@ -78,6 +91,11 @@
         </q-card-actions>
       </q-card>
     </q-dialog>-->
+    <q-footer elevated>
+      <q-toolbar>
+        <q-toolbar-title>enterprise level oracle solutions</q-toolbar-title>
+      </q-toolbar>
+    </q-footer>
 
     <q-page-container>
       <router-view />
@@ -89,18 +107,6 @@
 import EssentialLink from 'components/EssentialLink.vue'
 
 const linksData = [
-  {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
-  },
-  {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/oracleite/Oraclecc'
-  },
   {
     title: 'Discord Channel',
     caption: 'https://discord.gg/PfcecUPbUH',
